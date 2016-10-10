@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"HelloWorld!!!");
+    NSLog(@"Hello!");
+    
+    self.view.backgroundColor=[UIColor redColor];
 }
 
 - (void)didReceiveMemoryWarning {

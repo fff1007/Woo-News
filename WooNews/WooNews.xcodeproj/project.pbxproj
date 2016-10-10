@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846705571DAB344700EB5511 /* FFFTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 846705561DAB344700EB5511 /* FFFTest.m */; };
 		E5397F651CDCE9E3000A8DF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5397F641CDCE9E3000A8DF7 /* main.m */; };
 		E5397F681CDCE9E3000A8DF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E5397F671CDCE9E3000A8DF7 /* AppDelegate.m */; };
 		E5397F6B1CDCE9E3000A8DF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E5397F6A1CDCE9E3000A8DF7 /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846705551DAB344700EB5511 /* FFFTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFFTest.h; sourceTree = "<group>"; };
+		846705561DAB344700EB5511 /* FFFTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFFTest.m; sourceTree = "<group>"; };
 		E5397F601CDCE9E3000A8DF7 /* WooNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WooNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5397F641CDCE9E3000A8DF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E5397F661CDCE9E3000A8DF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +88,8 @@
 				E5397F671CDCE9E3000A8DF7 /* AppDelegate.m */,
 				E5397F691CDCE9E3000A8DF7 /* ViewController.h */,
 				E5397F6A1CDCE9E3000A8DF7 /* ViewController.m */,
+				846705551DAB344700EB5511 /* FFFTest.h */,
+				846705561DAB344700EB5511 /* FFFTest.m */,
 				E5397F6C1CDCE9E3000A8DF7 /* Main.storyboard */,
 				E5397F6F1CDCE9E3000A8DF7 /* Assets.xcassets */,
 				E5397F711CDCE9E3000A8DF7 /* LaunchScreen.storyboard */,
@@ -215,6 +220,7 @@
 			files = (
 				E5397F6B1CDCE9E3000A8DF7 /* ViewController.m in Sources */,
 				E5397F681CDCE9E3000A8DF7 /* AppDelegate.m in Sources */,
+				846705571DAB344700EB5511 /* FFFTest.m in Sources */,
 				E5397F651CDCE9E3000A8DF7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +408,7 @@
 				E5397F841CDCE9E3000A8DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5397F851CDCE9E3000A8DF7 /* Build configuration list for PBXNativeTarget "WooNewsTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +417,7 @@
 				E5397F871CDCE9E3000A8DF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
